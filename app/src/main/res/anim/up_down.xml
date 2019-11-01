@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillAfter="true"
+android:interpolator="@android:anim/linear_interpolator" >
+
+<!-- Move -->
+<translate
+    android:duration="3000"
+    android:fillAfter="true"
+    android:fromYDelta="0%p"
+    android:toYDelta="70%p"
+    android:repeatCount="-1"
+    android:repeatMode="reverse"/>
+
+<!--<translate-->
+    <!--android:duration="800"-->
+    <!--android:fillAfter="true"-->
+    <!--android:fromYDelta="0%p"-->
+    <!--android:startOffset="800"-->
+    <!--android:toYDelta="-70%p" />-->
+</set>

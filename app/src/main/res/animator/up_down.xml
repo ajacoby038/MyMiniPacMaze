@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fillAfter="true"
+    android:repeatCount="-1"
+    android:repeatMode="reverse"
+
+
+    android:valueType="floatType"
+    android:valueTo="200"
+    android:propertyName="y"
+
+    />
+    <!--android:duration="1000"-->
+    <!--android:valueTo="200"-->
+    <!--android:valueType="floatType"-->
+    <!--android:propertyName="y"-->
+    <!--android:repeatCount="1"-->
+    <!--android:repeatMode="reverse"/>-->
+
+
+
+    <!--android:fromYDelta="0%p"-->
+    <!--android:toYDelta="70%p"-->

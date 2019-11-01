@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Game</string>
+    <string name="start">START</string>
+    <string name="ultimate_maze">ULTIMATE MAZE</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="retry">Retry</string>
+    <string name="by_alek_jacoby">By Alek Jacoby</string>
+    <string name="congratulations">CONGRATULATIONS!</string>
+    <string name="play_again">play again</string>
+    <string name="pac_man_maze">PAC-MAN MAZE</string>
+</resources>
