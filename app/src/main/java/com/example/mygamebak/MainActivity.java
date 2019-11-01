@@ -406,8 +406,8 @@ public class MainActivity extends AppCompatActivity {
         exitWall.setVisibility(View.INVISIBLE);
         exitWall.clearAnimation();
 
-//        dots_remaining = NUM_DOTS;
-        dots_remaining = 1;
+        dots_remaining = NUM_DOTS;
+//        dots_remaining = 1;
         ready_to_win = false;
 
         pacman.setX(initialposition[0]);
@@ -416,10 +416,10 @@ public class MainActivity extends AppCompatActivity {
         pacman.setVisibility(View.VISIBLE);
 
         for (ImageView dot: dots) {
-            dot.setVisibility(View.INVISIBLE);
+            dot.setVisibility(View.VISIBLE);
         }
 
-        dots[20].setVisibility(View.VISIBLE);
+//        dots[20].setVisibility(View.VISIBLE);
 
         for (GhostAnimation ghost: ghosts) {
             ghost.translateAnimation.setRepeatCount(ValueAnimator.INFINITE);
